@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #ACC3FF;
+}
+
+.article1 {
+    width: 364px;
+    height: 512px;
+    background-color: #f4f4f4;
+    border: solid 1px #e6e4e5;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 52px;
+}
+
+.formulario {
+    margin-top: 30px;
+}
+
+.imagen {
+    width: 136px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.iniciarSesion {
+    font-size: 20px;
+    font-family: 'Heebo',sans-serif;
+    font-weight: bold;
+    color: #2D2D2D;
+    text-align: center;
+    margin: 20px;
+}
+
+input[type=email], input[type=password] {
+    width: 224px;
+    height: 40px;
+    font-family: 'Heebo',sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    padding: 12px 15px;
+    display: inline-block;
+    border: 1px solid #e6e4e5;
+    box-sizing: border-box;
+    font-weight: normal;
+    color:#848282;
+    border-radius: 5px;
+    margin:  0 0 10px 70px;
+    background-color: #EAEAEA;
+    border: #C9C9C9 solid 1px;
+
+}
+
+input[type=submit] {
+    width: 224px;
+    height: 52px;
+    font-family: 'Heebo',sans-serif;
+    font-size: 16px;
+    margin: 0px 0 5px 0;
+    margin-left: 70px;
+    background-color: #ACC3FF;
+    color: #312F2F;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #61a4af;
+    color: white;
+    border: none;
+
+}
+
+.recoemail {
+    border-radius:10px;   
+}
+
+.forgetPass, .switchMode {
+    font-size: 14px;
+    font-family: 'Heebo',sans-serif;
+    color:#61a4af ;
+    margin-left: 120px ;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+
+}
+.switchModeDark {
+    font-size: 14px;
+    font-family: 'Heebo',sans-serif;
+    color:#61a4af ;
+    margin-left: 120px ;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+
+}
+
